@@ -95,7 +95,7 @@ void ImagePreviewWidget::resetScene()
 
 void ImagePreviewWidget::drawFaces(std::shared_ptr<const FaceDetector::Result> p_pResult)
 {
-	scene()->addRect(10,10,110,110, QPen(), QBrush(Qt::red));
+//	scene()->addRect(10,10,110,110, QPen(), QBrush(Qt::red));
 
 	for (std::shared_ptr<const FaceInfo> face : p_pResult->faces)
 	{

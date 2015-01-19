@@ -13,7 +13,8 @@
 const std::map<FaceDetector::ImageType, QString> MainWindow::imageTypes {
 //	{ FaceDetector::ImageType::SKIN_THRESHOLD, QString("Skin threshold") },
 	{ FaceDetector::ImageType::ORIGINAL_IMAGE, QString("Oryginalny obraz") },
-	{ FaceDetector::ImageType::SKIN_THRESHOLD, QString("Kontury twarzy") }
+	{ FaceDetector::ImageType::SKIN_THRESHOLD, QString("Kolor twarzy") },
+	{ FaceDetector::ImageType::HAIR_THRESHOLD, QString("Kolor wlosow") }
 };
 
 MainWindow::MainWindow(std::weak_ptr<Director> parent) :

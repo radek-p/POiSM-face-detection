@@ -19,6 +19,7 @@ public:
 	{
 		ORIGINAL_IMAGE = 0,
 		SKIN_THRESHOLD = 1,
+		HAIR_THRESHOLD = 2,
 		DEFAULT = 0
 	};
 
@@ -34,9 +35,23 @@ public:
 	};
 
 	// Detection procedure
-	std::unique_ptr<Result> detect(std::shared_ptr<const cv::Mat> image) const;
+	std::shared_ptr<Result> detect(std::shared_ptr<const cv::Mat> image) const;
 
 private:
 	// Configuration of detector.
 	std::shared_ptr<FaceDetectorConfig> m_pConfig;
+
+	cv::Mat detectSkinColor(std::shared_ptr<const cv::Mat> image) const;
+
+	cv::Mat detectSkinColor2(std::shared_ptr<const cv::Mat> image) const;
+
+	cv::Mat getContourMask(std::shared_ptr<const cv::Mat> image) const;
+
+	cv::Mat detectHair(std::shared_ptr<const cv::Mat> image) const;
+
+	cv::Mat quantizeMask(const cv::Mat& img, int size = 5, int threshold = 12) const;
+
+	cv::Mat quantizeMask2(const cv::Mat& img, int size = 5, int threshold = 12) const;
+
+	cv::Mat clusterColors(const cv::Mat& img) const;
 };

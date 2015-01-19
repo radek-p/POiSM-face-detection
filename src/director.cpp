@@ -19,7 +19,7 @@ Director::Director(QObject *parent) :
 	setObjectName("director");
 
 	// TODO Remove
-	onOpenFile(QString("/home/radek/Obrazy/photobook/100_2840.JPG"));
+	onOpenFile(QString("/home/radek/projects/FaceRecognition/test-data/2.jpg"));
 }
 
 Director::~Director()
@@ -43,7 +43,7 @@ void Director::onOpenFile(QString sFileName)
 	m_pOriginalImage = m_pImage = std::shared_ptr<cv::Mat>(new cv::Mat(imdecode(data, 1)));
 	m_pDetectionResult.reset();
 
-	emit imageUpdated();
+	detect();
 }
 
 void Director::onClose()
