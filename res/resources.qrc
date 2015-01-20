@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/styles">
+        <file>styles.qss</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>splitter-handle-v.png</file>
+        <file>splitter-handle-h.png</file>
+        <file>button1-pressed.png</file>
+        <file>button1.png</file>
+        <file>button1-hover.png</file>
+    </qresource>
+</RCC>

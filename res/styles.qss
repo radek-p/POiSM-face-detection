@@ -1,0 +1,92 @@
+/* Styles */
+
+MainWindow {
+	color: #FFF;
+}
+
+/*MainWindow {
+	background: #333;
+}*/
+MainWindow {
+	background: #3c3f41;
+	color: #F2F2F2;
+}
+
+QLabel {
+	color: #F2F2F2;
+}
+
+/********************************************/
+/* Frames                                   */
+/********************************************/
+#leftPane {
+	background: #313335;
+	border: 1px solid #27292a;
+	border-left: none;
+	border-right: none;
+}
+
+ImagePreviewWidget {
+	border: 1px solid #27292a;
+	border-right: none;
+	border-bottom: none;
+	background: #313335;
+}
+
+/********************************************/
+/* QMenuBars                                */
+/********************************************/
+MainWindow QMenuBar {
+	background: #3c3f41;
+	padding: 0;
+}
+
+MainWindow QMenuBar::item {
+	spacing: 0px;
+	padding: 2px 5px;
+	margin: 0;
+	background: transparent;
+	border-radius: 0;
+}
+
+MainWindow QMenuBar::item:pressed {
+	background: #0048a8;
+}
+
+/********************************************/
+/* QSplitters                               */
+/********************************************/
+MainWindow QSplitter::handle:vertical {
+	background: #3c3f41;
+	height: 7px;
+	image: url(:/images/splitter-handle-v.png);
+}
+
+MainWindow QSplitter::handle:horizontal {
+	background: #3c3f41;
+	width: 7px;
+	image: url(:/images/splitter-handle-v.png);
+}
+
+/********************************************/
+/* QButtons                                 */
+/********************************************/
+MainWindow QPushButton {
+	border: 2px solid;
+	border-image: url(:/images/button1.png) 2 2 2 2 fill;
+	padding: 10px;
+	outline: none;
+	color: #F2F2F2;
+}
+
+MainWindow QPushButton:hover {
+	border-image: url(:/images/button1-hover.png) 2 2 2 2 fill;
+}
+
+MainWindow QPushButton:pressed {
+	border-image: url(:/images/button1-pressed.png) 2 2 2 2 fill;
+}
+
+/********************************************/
+/* ImagePreviewWidget                       */
+/********************************************/

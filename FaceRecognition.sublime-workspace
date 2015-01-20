@@ -1,0 +1,701 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"g",
+				"genAll"
+			],
+			[
+				"cl",
+				"clenshaw"
+			],
+			[
+				"size",
+				"size_t"
+			],
+			[
+				"co",
+				"coefficients"
+			],
+			[
+				"QGr",
+				"QGraphicsScene"
+			],
+			[
+				"p",
+				"pItem"
+			],
+			[
+				"Extra",
+				"ExtractorConfig"
+			],
+			[
+				"Ex",
+				"ExtractorConfig"
+			],
+			[
+				"o",
+				"oCurrentType"
+			],
+			[
+				"Extr",
+				"ExtractorType"
+			],
+			[
+				"p_",
+				"p_sTypeName"
+			],
+			[
+				"Set",
+				"SetupExtractorSelect"
+			],
+			[
+				"m_iMa",
+				"m_iMaxH"
+			],
+			[
+				"Max",
+				"MaxHue"
+			],
+			[
+				"Sim",
+				"SimpleExtractorConfigWidget"
+			],
+			[
+				"Simple",
+				"SimpleExtractor"
+			],
+			[
+				"SetMaxValue",
+				"SetMaxHValue"
+			],
+			[
+				"m_i",
+				"m_iMinH"
+			],
+			[
+				"E",
+				"ExtractorManagerWidget"
+			],
+			[
+				"e",
+				"Extractor"
+			],
+			[
+				"Tr",
+				"Tracker"
+			],
+			[
+				"Si",
+				"SimpleExtractor"
+			],
+			[
+				"S",
+				"SimpleExtractorConfig"
+			],
+			[
+				"Visi",
+				"Visitor"
+			],
+			[
+				"COO",
+				"COOP"
+			],
+			[
+				"C",
+				"CooperateS2"
+			],
+			[
+				"Ad",
+				"AdvancedExtractorConfig"
+			],
+			[
+				"st",
+				"static_cast"
+			],
+			[
+				"m",
+				"m_pConfig"
+			],
+			[
+				"Ext",
+				"Extractor"
+			],
+			[
+				"Simpl",
+				"SimpleExtractorConfig"
+			],
+			[
+				"QG",
+				"QGraphicsScene"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"Ma",
+				"MarkerWidget"
+			],
+			[
+				"Q",
+				"QLabel"
+			],
+			[
+				"m_o",
+				"m_oDiagnosticData"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"togg",
+				"toggleHistoryButton"
+			],
+			[
+				"VI",
+				"VideoType"
+			],
+			[
+				"Vido",
+				"VideoType"
+			],
+			[
+				"col",
+				"colspan"
+			],
+			[
+				"goto",
+				"gotoOffset"
+			],
+			[
+				"tool",
+				"toggleExtractorPointsButton"
+			],
+			[
+				"too",
+				"toggleHistoryButton"
+			],
+			[
+				"tooE",
+				"toggleExtractorPointsButton"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "res/styles.qss",
+			"settings":
+			{
+				"buffer_size": 1379,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/radek/projects/motion-capture/fork/res/qss/styles.css",
+			"settings":
+			{
+				"buffer_size": 5462,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 346.0,
+		"selected_items":
+		[
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			],
+			[
+				"addf",
+				"Project: Add Folder"
+			],
+			[
+				"LOWE",
+				"Convert Case: Lower Case"
+			],
+			[
+				"ssc++",
+				"Set Syntax: C++"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"ssc",
+				"Set Syntax: C++11"
+			],
+			[
+				"sspa",
+				"Set Syntax: Pascal"
+			],
+			[
+				"c1",
+				"Set Syntax: C++11"
+			],
+			[
+				"ssc1",
+				"Set Syntax: C++11"
+			],
+			[
+				"ssc++1",
+				"Set Syntax: C++11"
+			],
+			[
+				"sste",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"SSC++",
+				"Set Syntax: C++11"
+			],
+			[
+				"ssc11",
+				"Set Syntax: C++11"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/radek/projects/FaceRecognition",
+		"/home/radek/projects/FaceRecognition/res",
+		"/home/radek/projects/FaceRecognition/src"
+	],
+	"file_history":
+	[
+		"/home/radek/projects/FaceRecognition/CMakeLists.txt",
+		"/home/radek/projects/FaceRecognition/CMakeLists.txt.user",
+		"/home/radek/projects/FaceRecognition/src/mainwindow.ui",
+		"/home/radek/projects/motion-capture/multithreading.gliffy",
+		"/home/radek/projects/motion-capture/vxl-lib/contrib/mul/mil/mil_all.h",
+		"/home/radek/projects/motion-capture/vxl-lib/contrib/mul/mil/algo/mil_algo_brighten_image_2d.h",
+		"/home/radek/projects/motion-capture/fork/main.cpp",
+		"/home/radek/projects/motion-capture/fork/ui/MainWindow.cpp",
+		"/home/radek/projects/motion-capture/fork/ui/ExtractorManagerWidget/RandomExtractorConfigWidget/RandomExtractorConfigWidget.cpp",
+		"/home/radek/projects/motion-capture/fork/ui/ExtractorManagerWidget/RandomExtractorConfigWidget/RandomExtractorConfigWidget.ui",
+		"/tmp/yaourt-tmp-radek/aur-mcedit/PKGBUILD",
+		"/home/radek/Desktop/test.cc",
+		"/home/radek/Desktop/mail2google.txt",
+		"/home/radek/projects/motion-capture/fork/res/qss/styles.css",
+		"/home/radek/projects/motion-capture/fork/.git/rebase-merge/git-rebase-todo",
+		"/home/radek/.bashrc",
+		"/home/radek/projects/motion-capture/fork/.git/config",
+		"/home/radek/Dokumenty/test.c",
+		"/home/radek/u/3-1/alt/deBruijn/alg1.js",
+		"/home/radek/u/3-1/alt/deBruijn/morph2c.js",
+		"/home/radek/u/3-1/alt/deBruijn/morph2z.js",
+		"/home/radek/u/3-1/alt/deBruijn/morph3b.js",
+		"/home/radek/u/3-1/alt/deBruijn/genAll.js",
+		"/home/radek/.xinitrc",
+		"/home/radek/projects/motion-capture/vxl-lib/contrib/mul/mfpf/mfpf_region_pdf_builder.cxx",
+		"/home/radek/projects/motion-capture/vxl-lib/contrib/mul/m23d/m23d_ortho_rigid_builder.cxx",
+		"/home/radek/projects/motion-capture/vxl-lib/contrib/mul/mipa/mipa_orientation_histogram.h",
+		"/home/radek/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/radek/projects/motion-capture/test1/test.cpp",
+		"/home/radek/Desktop/clenshaw/main2.c",
+		"/home/radek/projects/motion-capture/vxl-lib/core/vpgl/io/tests/test_perspective_camera_io.cxx",
+		"/home/radek/projects/motion-capture/vxl-lib/core/vgl/tests/test_ellipse_scan_iterator.cxx",
+		"/home/radek/projects/motion-capture/vxl-lib/v3p/tiff/tif_error.c",
+		"/home/radek/Desktop/clenshaw/cl2.c",
+		"/usr/share/icons/Adwaita/cursors/arrow",
+		"/home/radek/projects/motion-capture/fork/ui/VideoDisplay.cpp",
+		"/home/radek/projects/motion-capture/fork/ui/VideoDisplay.h",
+		"/home/radek/projects/motion-capture/fork/ui/ExtractorManagerWidget/ExtractorManagerWidget.h",
+		"/home/radek/projects/motion-capture/fork/ui/ExtractorManagerWidget/SimpleExtractorConfigWidget/SimpleExtractorConfigWidget.cpp",
+		"/home/radek/projects/motion-capture/fork/ui/ExtractorManagerWidget/SimpleExtractorConfigWidget/SimpleExtractorConfigWidget.h",
+		"/home/radek/projects/motion-capture/fork/ui/ExtractorManagerWidget/ExtractorConfigWidget.h",
+		"/home/radek/projects/motion-capture/fork/extr/SimpleExtractor/SimpleExtractor.cpp",
+		"/home/radek/projects/motion-capture/fork/fms/FacialMotionScanner.cpp",
+		"/home/radek/projects/motion-capture/fork/ui/ExtractorManagerWidget/ExtractorManagerWidget.cpp",
+		"/home/radek/projects/motion-capture/fork/extr/ExtractorFactory.h",
+		"/home/radek/projects/motion-capture/vxl-lib/configure",
+		"/home/radek/projects/motion-capture/vxl-lib/v3p/geotiff/cpl_serv.c",
+		"/home/radek/projects/motion-capture/fork/.idea/codeStyleSettings.xml",
+		"/home/radek/projects/motion-capture/fork/extr/ExtractorConfiguration.h",
+		"/home/radek/projects/motion-capture/fork/CMakeLists.txt",
+		"/home/radek/projects/motion-capture/fork/ui/ExtractorManagerWidget/ExtractorConfigWidgetFactory.cpp",
+		"/home/radek/projects/motion-capture/fork/ui/ExtractorManagerWidget/RandomExtractorConfigWidget/RandomExtractorConfigWidget.h",
+		"/home/radek/projects/motion-capture/fork/fms.h",
+		"/home/radek/projects/motion-capture/fork/ui/ExtractorManagerWidget/ExtractorConfigWidget.cpp",
+		"/home/radek/projects/motion-capture/fork/ui/ExtractorManagerWidget/RandomExtractorConfigWidget/SimpleExtractorConfigWidget.cpp",
+		"/home/radek/projects/motion-capture/fork/ui/ExtractorManagerWidget/RandomExtractorConfigWidget/SimpleExtractorConfigWidget.h",
+		"/home/radek/projects/motion-capture/fork/ui/ExtractorManagerWidget/RandomExtractorConfigWidget/SimpleExtractorConfigWidget.ui",
+		"/home/radek/projects/motion-capture/fork/ui/ExtractorManagerWidget/SimpleExtractorConfigWidget/SimpleExtractorConfigWidget.ui",
+		"/home/radek/projects/motion-capture/fork/ui/ExtractorManagerWidget/ExtractorConfigWidgetFactory.h",
+		"/home/radek/projects/motion-capture/fork/extr/RandomExtractor/RandomExtractor.h",
+		"/home/radek/projects/motion-capture/fork/extr/Extractor.h",
+		"/home/radek/projects/motion-capture/fork/ui/MainWindow.h",
+		"/home/radek/projects/motion-capture/fork/ui/ExtractorManagerWidget/ExtractorManagerWidget.ui",
+		"/home/radek/projects/motion-capture/fork/ui/Director.cpp",
+		"/home/radek/projects/motion-capture/fork/ui/Director.h",
+		"/home/radek/projects/motion-capture/fork/extr/GaussExtractor/GaussConfiguration.h",
+		"/home/radek/projects/motion-capture/fork/extr/GaussExtractor/GaussExtractor.h",
+		"/home/radek/projects/motion-capture/fork/extr/FaceExtractor/FaceExtractor.h",
+		"/home/radek/projects/motion-capture/fork/extr/FaceExtractor/FaceConfiguration.h",
+		"/home/radek/projects/motion-capture/fork/fms/FacialMotionScanner.h",
+		"/home/radek/projects/motion-capture/fork/ui/ExtractorManagerWidget/SimpleExtractor/SimpleConfigWidget.h",
+		"/home/radek/projects/motion-capture/fork/ui/ExtractorConfigWidget/ExtractorConfigWidget.h",
+		"/home/radek/projects/motion-capture/fork/extr/SimpleExtractor/SimpleExtractor.h",
+		"/home/radek/projects/motion-capture/fork/extr/SimpleExtractor/SimpleConfiguration.h",
+		"/home/radek/projects/motion-capture/fork/extr/RandomExtractor/RandomConfiguration.h",
+		"/home/radek/projects/motion-capture/fork/ui/ToolboxWidget/ExtractorConfigWidget.cpp",
+		"/home/radek/projects/motion-capture/fork/ui/ToolboxWidget/ExtractorConfigWidget.h",
+		"/home/radek/projects/motion-capture/fork/extr/ExtractorFactory.cpp",
+		"/home/radek/projects/motion-capture/fork/extr/ExtractorConfiguration.cpp",
+		"/home/radek/projects/motion-capture/fork/ui/ToolboxWidget/TrackerConfigWidget.h",
+		"/home/radek/projects/motion-capture/fork/ui/ToolboxWidget/ToolboxWidget.h",
+		"/home/radek/projects/motion-capture/fork/ui/ToolboxWidget/TimelineWidget.h",
+		"/home/radek/projects/motion-capture/fork/ui/SplitView/VideoPanel.h",
+		"/home/radek/projects/motion-capture/fork/ui/SplitView/SplitViewPanel.h",
+		"/home/radek/projects/motion-capture/fork/ui/SplitView/SplitView.h",
+		"/home/radek/projects/motion-capture/fork/ui/SplitView/PanelFactory.h",
+		"/home/radek/projects/motion-capture/fork/extr/SimpleExtractor/SimpleExtractorConfig.h",
+		"/home/radek/projects/motion-capture/fork/extr/ExtractorConfig.h",
+		"/home/radek/projects/motion-capture/test1/test2.cpp",
+		"/home/radek/projects/motion-capture/ancient-calibration/SimpleCameraCalibrator.h",
+		"/home/radek/projects/motion-capture/fork/calib/Calibrator.h",
+		"/home/radek/projects/motion-capture/fork/calib/SimpleCalibrator/SimpleCalibrator.h",
+		"/home/radek/projects/motion-capture/fork/ui/MarkerWidget.cpp",
+		"/home/radek/projects/motion-capture/fork/ui/MarkerWidget.h",
+		"/home/radek/projects/motion-capture/fork/extr/Extractor.cpp",
+		"/home/radek/Pobrane/cewe/install.pl",
+		"/home/radek/Pobrane/install.pl",
+		"/home/radek/projects/motion-capture/fork/extr/RandomExtractor/RandomExtractor.cpp",
+		"/home/radek/projects/motion-capture/fork/extr/GaussExtractor/GaussExtractor.cpp",
+		"/home/radek/projects/motion-capture/fork/extr/FaceExtractor/FaceExtractor.cpp",
+		"/home/radek/projects/motion-capture/fork/ui/ToolboxWidget/TrackerConfigWidget.cpp",
+		"/home/radek/projects/motion-capture/fork/ui/ToolboxWidget/ToolboxWidget.cpp",
+		"/home/radek/projects/motion-capture/fork/ui/ToolboxWidget/TimelineWidget.cpp",
+		"/home/radek/projects/motion-capture/fork/ui/SplitView/VideoPanelFactory.cpp",
+		"/home/radek/projects/motion-capture/fork/ui/SplitView/VideoPanel.cpp",
+		"/home/radek/projects/motion-capture/fork/ui/SplitView/SplitViewPanel.cpp",
+		"/home/radek/projects/motion-capture/fork/ui/SplitView/SplitView.cpp",
+		"/home/radek/projects/motion-capture/fork/extr/FaceExtractor/FaceExtractorConfig.h",
+		"/home/radek/projects/motion-capture/fork/fms/ScannerDiagnosticData.h",
+		"/home/radek/projects/motion-capture/fork/extr/RandomExtractor.cpp",
+		"/home/radek/projects/motion-capture/fork/ui/ToolboxWidget/TimelineWidget.ui",
+		"/home/radek/projects/motion-capture/other-forks/dunix/ui/ToolboxWidget/TimelineWidget.cpp",
+		"/home/radek/projects/motion-capture/fork/resources/qss/styles.css",
+		"/home/radek/projects/motion-capture/fork/ui/FontawesomeNames.h",
+		"/home/radek/projects/motion-capture/vxl-lib/core/vnl/vnl_numeric_traits.h",
+		"/home/radek/projects/motion-capture/fork/ui/FontAwesomeIconNames.h"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/home/radek/projects/motion-capture/fork/ui/ExtractorManagerWidget/RandomExtractorConfigWidget",
+			"/home/radek/projects/motion-capture/fork"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"border-image",
+			"border",
+			"\n}",
+			"button",
+			"w",
+			"Simple",
+			"abc",
+			"\\s{2,}",
+			"\\n\\n",
+			"m_oPicOut",
+			"picOut",
+			"PicOut",
+			"picOut",
+			"min(",
+			"max(",
+			"Max",
+			"Face",
+			"Simple",
+			"virtual ",
+			"Constru",
+			"Histor",
+			"\\sem{",
+			"fm::",
+			"PointExtractorConfiguration",
+			"SimpleExtractor",
+			"QGraphicsWidget",
+			"fm::ui::",
+			"SimplePointExtractor",
+			"PointExtractorCV",
+			"GoToFrame",
+			"Save",
+			"track",
+			"resou",
+			"resources",
+			"res",
+			"Frame",
+			"comboBox",
+			"ComboBox",
+			"comboBox",
+			"fromUtf8(\"",
+			"if \\( p_sIconName == \"(.*)\" \\) \\{\\n\\t*return QString::fromUtf8\\( \"\\\\(.*)\" \\);\\n\\s*\\}",
+			"if \\( p_sIconName == \"(.*)\" ) {\n			return QString::fromUtf8\\( \"\\\\(.*)\" );\n		}",
+			"iconName",
+			"\\s*(.*):.*\\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": true,
+		"replace_history":
+		[
+			" ",
+			"\n",
+			"std::min(",
+			"std::max(",
+			"Random",
+			"",
+			"\\",
+			"",
+			"res",
+			"fromUtf8(\"\\",
+			"if (p_sIconName == \"$1\")\n			return QString::fromUtf8(\"$2\");",
+			"p_sIconName",
+			"$1 "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "res/styles.qss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24,
+								24
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/radek/projects/motion-capture/fork/res/qss/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5462,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4755,
+								4755
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2990.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "FaceRecognition.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"test.cpp",
+				"test1/test.cpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/projects/motion-capture/motion-capture.sublime-project"
+			],
+			[
+				"cal",
+				"~/projects/calibration/calibration.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
