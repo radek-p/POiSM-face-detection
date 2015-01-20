@@ -4,35 +4,31 @@
 #include <QGraphicsScene>
 
 ImagePreviewWidget::ImagePreviewWidget(QWidget *parent) :
-	QGraphicsView(parent)
+	QGraphicsView(new QGraphicsScene(), parent)
 {
-	setScene(new QGraphicsScene());
-	m_pPixmap = scene()->addPixmap(QPixmap(QSize(0, 0)));
 	setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
 	setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
-}
 
-ImagePreviewWidget::~ImagePreviewWidget()
-{
-
+	resetScene();
 }
 
 void ImagePreviewWidget::setDirector(std::weak_ptr<Director> director)
 {
 	m_pDirector = director;
 	QObject::connect(m_pDirector.lock().get(), SIGNAL(imageUpdated()), this, SLOT(onImageUpdated()));
-}
-
-void ImagePreviewWidget::drawFaceRectangles()
-{
-	scene()->addRect(10,10,110,110, QPen(), QBrush(Qt::red));
+	onImageUpdated();
 }
 
 void ImagePreviewWidget::onImageUpdated()
 {
+	resetScene();
 	auto pDirector = m_pDirector.lock();
 	if (!pDirector)
 		return;
+
+	std::shared_ptr<const FaceDetector::Result> pResult = pDirector->getDetectionResult();
+	if (pResult)
+		drawFaces(pResult);
 
 	auto mImage = pDirector->image();
 
@@ -85,8 +81,32 @@ void ImagePreviewWidget::fitInView(const QRectF &p_oRect, Qt::AspectRatioMode p_
 	centerOn(p_oRect.center());
 }
 
-void ImagePreviewWidget::resizeEvent(QResizeEvent *p_pEvent)
+void ImagePreviewWidget::resizeEvent(QResizeEvent *)
 {
 	fitInView(sceneRect(), Qt::KeepAspectRatio);
+}
+
+void ImagePreviewWidget::resetScene()
+{
+	scene()->clear();
+	setScene(new QGraphicsScene());
+	m_pPixmap = scene()->addPixmap(QPixmap(QSize(0, 0)));
+}
+
+void ImagePreviewWidget::drawFaces(std::shared_ptr<const FaceDetector::Result> p_pResult)
+{
+	scene()->addRect(10,10,110,110, QPen(), QBrush(Qt::red));
+
+	for (std::shared_ptr<const FaceInfo> face : p_pResult->faces)
+	{
+		scene()->addRect(
+			face->m_oBoundingRect.x,
+			face->m_oBoundingRect.y,
+			face->m_oBoundingRect.width,
+			face->m_oBoundingRect.height,
+			QPen(Qt::red),
+			QBrush(Qt::transparent)
+		);
+	}
 }
 

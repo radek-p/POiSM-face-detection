@@ -3,10 +3,18 @@
 #include "ui_mainwindow.h"
 
 #include <QFileDialog>
-#include <iostream>
+#include <QString>
 #include <QGraphicsView>
 #include <QGraphicsScene>
+#include <QComboBox>
+#include <iostream>
 
+
+const std::map<FaceDetector::ImageType, QString> MainWindow::imageTypes {
+//	{ FaceDetector::ImageType::SKIN_THRESHOLD, QString("Skin threshold") },
+	{ FaceDetector::ImageType::ORIGINAL_IMAGE, QString("Oryginalny obraz") },
+	{ FaceDetector::ImageType::SKIN_THRESHOLD, QString("Kontury twarzy") }
+};
 
 MainWindow::MainWindow(std::weak_ptr<Director> parent) :
 	QMainWindow(),
@@ -14,6 +22,7 @@ MainWindow::MainWindow(std::weak_ptr<Director> parent) :
 	ui(new Ui::MainWindow)
 {
 	ui->setupUi(this);
+	setupTypeSelect();
 	ui->preview->setDirector(parent);
 }
 
@@ -45,4 +54,24 @@ void MainWindow::on_actionOpenImage_triggered()
 void MainWindow::on_actionExit_triggered()
 {
 	emit closeRequested();
+}
+
+void MainWindow::on_actionDetectFaces_triggered()
+{
+	emit detectRequested();
+}
+
+void MainWindow::setupTypeSelect()
+{
+	for (auto &pair : imageTypes)
+	{
+		ui->typeSelect->addItem(pair.second, QVariant::fromValue(pair.first));
+	}
+}
+
+void MainWindow::on_typeSelect_currentIndexChanged(int index)
+{
+	std::cout << "on_typeSelect_currentIndexChanged(" << index << ")" << std::endl;
+
+	emit typeChangeRequested(ui->typeSelect->itemData(index).value<FaceDetector::ImageType>());
 }

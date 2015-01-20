@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.8)
 project(FaceRecognition)
 
+SET(CMAKE_BUILD_TYPE Debug)
+
 # compiler and linker flags
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wall -Wextra")
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wall -Wextra")
@@ -29,6 +31,8 @@ set(SRC_LIST
 	src/director.cpp
 	src/imagepreviewwidget.cpp
 	src/facedetector.cpp
+	src/faceinfo.cpp
+	src/facedetectorconfig.cpp
 )
 set(RES_LIST
 	res/resources.qrc

@@ -30,6 +30,12 @@
       <height>0</height>
      </size>
     </property>
+    <property name="maximumSize">
+     <size>
+      <width>250</width>
+      <height>16777215</height>
+     </size>
+    </property>
     <layout class="QVBoxLayout" name="leftPaneLayout">
      <property name="leftMargin">
       <number>10</number>
@@ -37,6 +43,9 @@
      <property name="rightMargin">
       <number>10</number>
      </property>
+     <item>
+      <widget class="QComboBox" name="typeSelect"/>
+     </item>
      <item>
       <layout class="QFormLayout" name="formLayout">
        <property name="fieldGrowthPolicy">
@@ -112,7 +121,7 @@
       </spacer>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_3">
+      <widget class="QPushButton" name="detectFaces">
        <property name="text">
         <string>Wykryj twarze</string>
        </property>
@@ -143,6 +152,8 @@
      <string>Plik</string>
     </property>
     <addaction name="actionOpenImage"/>
+    <addaction name="actionDetectFaces"/>
+    <addaction name="separator"/>
     <addaction name="actionExit"/>
    </widget>
    <widget class="QMenu" name="menuPomoc">
@@ -178,6 +189,14 @@
     <string>Ctrl+K, Ctrl+I</string>
    </property>
   </action>
+  <action name="actionDetectFaces">
+   <property name="text">
+    <string>Wykryj twarze</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+K, Ctrl+D</string>
+   </property>
+  </action>
  </widget>
  <customwidgets>
   <customwidget>
@@ -187,5 +206,22 @@
   </customwidget>
  </customwidgets>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>detectFaces</sender>
+   <signal>clicked()</signal>
+   <receiver>actionDetectFaces</receiver>
+   <slot>trigger()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>124</x>
+     <y>574</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
